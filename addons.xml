@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.teledunet"
+       name="Riad Arabic-TV"
+       version="1.0.8"
+       provider-name="Riad">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.xbmcswift2" version="1.1.1" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Riad</summary>
+        <description> Not for free distribution.
+
+It broadcasts channels through the internet 24/7.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+</addons>
